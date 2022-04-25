@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import "./App.css"
 type TimerProps = {
   questionNumber: number;
   prevQuestion: number;
@@ -39,5 +39,5 @@ export default function Timer({
     //reset when question number if last
     setTimer(10);
   }, [questionNumber]);
-  return <div>Remaining Time:{timer}</div>;
+  return <span className="timer">{timer}</span>;
 }

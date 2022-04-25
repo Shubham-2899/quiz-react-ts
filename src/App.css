@@ -110,4 +110,15 @@ button svg {
 .nextBtn{
   width: 100px;
 }
+.timerBox{
+  display: inline;
+}
+.timer{
+  text-align: center;
+  height: 27px;
+  width: 27px;
+   border: 2px solid white; 
+  border-radius: 50%;
+  display: inline-block;
+}
 

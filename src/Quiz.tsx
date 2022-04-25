@@ -33,6 +33,7 @@ export function Quiz() {
 
   return (
     <>
+    Remaining Time:
       <Timer
         questionNumber={questionNumber}
         setShowScore={setShowScore}
